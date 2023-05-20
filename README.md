@@ -1,8 +1,6 @@
 # PDF AI Assistant
-This codebase is built for the purpose of interacting with PDF documents and get instant answers.
-First, upload PDF documents. We are using Langchain library to read PDF document and to extract and split contents from document.
-We are using Cohere embeddings to create word embeddings from extract contents and upload those embeddings in Qdrant Vector DB.
-We built the frontend chat interface using Gradio app.
+This codebase is built for the purpose of interacting with PDF documents through a chat interface and get instant answers for your queries.<br>
+This project is built using Langchain for question answer retrieval, Qdrant Vector DB to store embeddings and Gradio for frontend demo.<br>
 
 This project is hosted on HuggingFace Spaces: [Live Demo of PDF AI Assistant](https://huggingface.co/spaces/heliosbrahma/ai-pdf-assistant).
 
