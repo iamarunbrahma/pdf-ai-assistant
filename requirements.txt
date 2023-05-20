@@ -1,0 +1,7 @@
+langchain
+openai
+tiktoken
+cohere
+gradio
+pymupdf
+qdrant-client
